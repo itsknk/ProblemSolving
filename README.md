@@ -1,5 +1,5 @@
 # ProblemSolving
-The repository contains solutions to various problems on leetcode and hackerrank. Most of the solutions are done in Java.
+The repository contains solutions to various problems on leetcode and hackerrank. Almost all the solutions are done in Java.
 
 ## Contribution
 1. Feel free to contribute if you've a more efficient solution.
