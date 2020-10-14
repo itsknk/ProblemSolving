@@ -8,7 +8,7 @@ class Solution {
         }
         return i;
     }
-       /** public static int binarySearch(int[] arr, int target)
+       /* public static int binarySearch(int[] arr, int target)
         {
             int mid, left=0, right=arr.length-1;
             while(left <= right)
