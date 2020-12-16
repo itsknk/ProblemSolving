@@ -8,23 +8,23 @@ class Solution {
         }
         return i;
     }
-       /* public static int binarySearch(int[] arr, int target)
+       /*public static int binarySearch(int[] arr, int target)
         {
             int mid, left=0, right=arr.length-1;
             while(left <= right)
             {
                 mid = left+(right-left)/2;
-                if(mid == target)
+                if(arr[mid] < target)
                 {
-                    return mid;
+                    left = mid+1;
                 }
-                if(target < arr[mid])
+                else if(arr[mid] > target)
                 {
                     right = mid-1;
                 }
                 else
                 {
-                    left = mid+1;
+                    return mid;
                 }
             }
             return -1;
