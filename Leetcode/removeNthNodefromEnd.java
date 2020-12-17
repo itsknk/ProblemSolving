@@ -23,5 +23,22 @@ class removeNthNodeFromEnd {
         }
         last.next = last.next.next;
         return dummy.next;
+        
+        //same but more cleaner
+          ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode a = dummy;
+        ListNode b = dummy;
+        for(int i=1; i<=n+1; i++)
+        {
+            b = b.next;
+        }
+        while(b!=null)
+        {
+            a = a.next;
+            b = b.next;
+        }
+        a.next = a.next.next;
+        return dummy.next;
     }
 }
