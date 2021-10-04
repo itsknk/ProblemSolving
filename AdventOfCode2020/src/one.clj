@@ -1,6 +1,6 @@
 (ns adc.one
   (:require
-   [clojure.math.combinatorics :as comb]
+   [clojure.math.combinatorics :as c]
    [clojure.string :as str]))
 
 
@@ -21,7 +21,7 @@
 
 
 (defn solution [itr input-data]
-  (->> (comb/combinations input-data itr)
+  (->> (c/combinations input-data itr)
        (filter #(= (apply + %) 2020))
        first
        (apply *)))
