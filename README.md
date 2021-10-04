@@ -1,5 +1,5 @@
 # ProblemSolving
-The repository contains solutions to various problems on leetcode and hackerrank. Almost all the solutions are done in Java.
+The repository contains solutions to the Advent of Code 2020. And to various problems on leetcode and HackerRank. Solutions for ADC are in Clojure, and for the rest, they're in Java and a little bit of Golang.
 
 ## Contribution
 1. Feel free to contribute if you've a more efficient solution.
