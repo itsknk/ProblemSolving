@@ -52,7 +52,7 @@
 
 
 (def input-data
-  (parse (slurp "resources/inputthree.txt")))
+  (parse (slurp "resources/inputfour.txt")))
 
 
 (defn valid-passport-one?
